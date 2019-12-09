@@ -38,15 +38,15 @@ int main()
             cout << endl << "> Run example (1 or 2) or exit (0): ";
             if (!(cin >> selection))
             {
-                invalid = false;
+                invalid = true;
             }
             else if (selection < 0 || selection > 6)
             {
-                invalid = false;
+                invalid = true;
             }
             else
             {
-                invalid = true;
+                invalid = false;
             }
             if (invalid)
             {
@@ -54,7 +54,7 @@ int main()
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
             }
-        } while (!invalid);
+        } while (invalid);
 
         switch (selection)
         {

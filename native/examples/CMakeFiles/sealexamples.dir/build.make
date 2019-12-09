@@ -43,10 +43,10 @@ RM = /snap/cmake/177/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/will/Documents/CMPE132/SEAL/native/examples
+CMAKE_SOURCE_DIR = /home/will/Documents/CMPE132/SEALTesting/native/examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/will/Documents/CMPE132/SEAL/native/examples
+CMAKE_BINARY_DIR = /home/will/Documents/CMPE132/SEALTesting/native/examples
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sealexamples.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/sealexamples.dir/flags.make
 
 CMakeFiles/sealexamples.dir/examples.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/examples.cpp.o: examples.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sealexamples.dir/examples.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/examples.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sealexamples.dir/examples.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/examples.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/examples.cpp
 
 CMakeFiles/sealexamples.dir/examples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/examples.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/examples.cpp > CMakeFiles/sealexamples.dir/examples.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/examples.cpp > CMakeFiles/sealexamples.dir/examples.cpp.i
 
 CMakeFiles/sealexamples.dir/examples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/examples.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/examples.cpp -o CMakeFiles/sealexamples.dir/examples.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/examples.cpp -o CMakeFiles/sealexamples.dir/examples.cpp.s
 
 CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o: 1_bfv_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/1_bfv_basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/1_bfv_basics.cpp
 
 CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/1_bfv_basics.cpp > CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/1_bfv_basics.cpp > CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.i
 
 CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/1_bfv_basics.cpp -o CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/1_bfv_basics.cpp -o CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.s
 
 CMakeFiles/sealexamples.dir/2_encoders.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/2_encoders.cpp.o: 2_encoders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sealexamples.dir/2_encoders.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/2_encoders.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/2_encoders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sealexamples.dir/2_encoders.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/2_encoders.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/2_encoders.cpp
 
 CMakeFiles/sealexamples.dir/2_encoders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/2_encoders.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/2_encoders.cpp > CMakeFiles/sealexamples.dir/2_encoders.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/2_encoders.cpp > CMakeFiles/sealexamples.dir/2_encoders.cpp.i
 
 CMakeFiles/sealexamples.dir/2_encoders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/2_encoders.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/2_encoders.cpp -o CMakeFiles/sealexamples.dir/2_encoders.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/2_encoders.cpp -o CMakeFiles/sealexamples.dir/2_encoders.cpp.s
 
 CMakeFiles/sealexamples.dir/3_levels.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/3_levels.cpp.o: 3_levels.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sealexamples.dir/3_levels.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/3_levels.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/3_levels.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sealexamples.dir/3_levels.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/3_levels.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/3_levels.cpp
 
 CMakeFiles/sealexamples.dir/3_levels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/3_levels.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/3_levels.cpp > CMakeFiles/sealexamples.dir/3_levels.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/3_levels.cpp > CMakeFiles/sealexamples.dir/3_levels.cpp.i
 
 CMakeFiles/sealexamples.dir/3_levels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/3_levels.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/3_levels.cpp -o CMakeFiles/sealexamples.dir/3_levels.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/3_levels.cpp -o CMakeFiles/sealexamples.dir/3_levels.cpp.s
 
 CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o: 4_ckks_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/4_ckks_basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/4_ckks_basics.cpp
 
 CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/4_ckks_basics.cpp > CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/4_ckks_basics.cpp > CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.i
 
 CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/4_ckks_basics.cpp -o CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/4_ckks_basics.cpp -o CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.s
 
 CMakeFiles/sealexamples.dir/5_rotation.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/5_rotation.cpp.o: 5_rotation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sealexamples.dir/5_rotation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/5_rotation.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/5_rotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sealexamples.dir/5_rotation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/5_rotation.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/5_rotation.cpp
 
 CMakeFiles/sealexamples.dir/5_rotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/5_rotation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/5_rotation.cpp > CMakeFiles/sealexamples.dir/5_rotation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/5_rotation.cpp > CMakeFiles/sealexamples.dir/5_rotation.cpp.i
 
 CMakeFiles/sealexamples.dir/5_rotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/5_rotation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/5_rotation.cpp -o CMakeFiles/sealexamples.dir/5_rotation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/5_rotation.cpp -o CMakeFiles/sealexamples.dir/5_rotation.cpp.s
 
 CMakeFiles/sealexamples.dir/6_performance.cpp.o: CMakeFiles/sealexamples.dir/flags.make
 CMakeFiles/sealexamples.dir/6_performance.cpp.o: 6_performance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sealexamples.dir/6_performance.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/6_performance.cpp.o -c /home/will/Documents/CMPE132/SEAL/native/examples/6_performance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sealexamples.dir/6_performance.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sealexamples.dir/6_performance.cpp.o -c /home/will/Documents/CMPE132/SEALTesting/native/examples/6_performance.cpp
 
 CMakeFiles/sealexamples.dir/6_performance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sealexamples.dir/6_performance.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEAL/native/examples/6_performance.cpp > CMakeFiles/sealexamples.dir/6_performance.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will/Documents/CMPE132/SEALTesting/native/examples/6_performance.cpp > CMakeFiles/sealexamples.dir/6_performance.cpp.i
 
 CMakeFiles/sealexamples.dir/6_performance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sealexamples.dir/6_performance.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEAL/native/examples/6_performance.cpp -o CMakeFiles/sealexamples.dir/6_performance.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will/Documents/CMPE132/SEALTesting/native/examples/6_performance.cpp -o CMakeFiles/sealexamples.dir/6_performance.cpp.s
 
 # Object files for target sealexamples
 sealexamples_OBJECTS = \
@@ -161,21 +161,21 @@ sealexamples_OBJECTS = \
 # External object files for target sealexamples
 sealexamples_EXTERNAL_OBJECTS =
 
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/examples.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/2_encoders.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/3_levels.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/5_rotation.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/6_performance.cpp.o
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/build.make
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: /home/will/Documents/CMPE132/SEAL/native/lib/libseal-3.4.a
-/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples: CMakeFiles/sealexamples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/will/Documents/CMPE132/SEAL/native/bin/sealexamples"
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/examples.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/2_encoders.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/3_levels.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/4_ckks_basics.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/5_rotation.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/6_performance.cpp.o
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/build.make
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: /home/will/Documents/CMPE132/SEAL/native/lib/libseal-3.4.a
+/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples: CMakeFiles/sealexamples.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sealexamples.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sealexamples.dir/build: /home/will/Documents/CMPE132/SEAL/native/bin/sealexamples
+CMakeFiles/sealexamples.dir/build: /home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples
 
 .PHONY : CMakeFiles/sealexamples.dir/build
 
@@ -184,6 +184,6 @@ CMakeFiles/sealexamples.dir/clean:
 .PHONY : CMakeFiles/sealexamples.dir/clean
 
 CMakeFiles/sealexamples.dir/depend:
-	cd /home/will/Documents/CMPE132/SEAL/native/examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/will/Documents/CMPE132/SEAL/native/examples /home/will/Documents/CMPE132/SEAL/native/examples /home/will/Documents/CMPE132/SEAL/native/examples /home/will/Documents/CMPE132/SEAL/native/examples /home/will/Documents/CMPE132/SEAL/native/examples/CMakeFiles/sealexamples.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/will/Documents/CMPE132/SEALTesting/native/examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/will/Documents/CMPE132/SEALTesting/native/examples /home/will/Documents/CMPE132/SEALTesting/native/examples /home/will/Documents/CMPE132/SEALTesting/native/examples /home/will/Documents/CMPE132/SEALTesting/native/examples /home/will/Documents/CMPE132/SEALTesting/native/examples/CMakeFiles/sealexamples.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sealexamples.dir/depend
 

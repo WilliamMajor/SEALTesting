@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples"
-  "/home/will/Documents/CMPE132/SEAL/native/bin/sealexamples.pdb"
+  "/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples"
+  "/home/will/Documents/CMPE132/SEALTesting/native/bin/sealexamples.pdb"
   "CMakeFiles/sealexamples.dir/1_bfv_basics.cpp.o"
   "CMakeFiles/sealexamples.dir/2_encoders.cpp.o"
   "CMakeFiles/sealexamples.dir/3_levels.cpp.o"
